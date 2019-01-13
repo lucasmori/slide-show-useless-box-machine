@@ -1,0 +1,72 @@
+Learn javaScript - Full Course for beginners
+
+#Comment your javaScript code
+Linhas de comando que o javaScript ignora, 
+usado para tomar notas do que esta acontecendo nesta parte do codigo.
+
+// in-line comment
+ /*
+ multi-line comment
+ de
+ degh
+ hyh
+ */
+
+ ----------------------------------------------------------------------------------
+
+#Data Types and Variables
+
+undefined, null, boolean, string, symbol, number, and object
+
+var myName = "Lucas"  --Usado em todo o programa
+
+myName = 8
+
+let ourName = "freeCodeCamp" --scope onde foi declarado
+
+const pi = 3.14                             --variavel que nunca muda
+-----------------------------------------------------------------------------------
+
+#Storing Values with Assigment Operator
+
+var a;
+var b = 2;
+
+a = 7;
+
+b = a;
+
+console.log(a) --usado para ver as coisas no console
+-----------------------------------------------------------------------------------
+
+#Initializing Variables w/ Assigment Operator
+
+var a = 9;
+
+#Uninitialized Variables
+// initialize these three variables
+var a = 5;
+var b = 10;
+var c = "I am a";
+
+//Do not change code below this line
+
+a = a + 1;
+b = b + 5;
+c = c + "String!";
+
+------------------------------------------------------------------------------------
+#Case Sensitivity in Variables
+
+// Declarations
+var studlyCapVar;
+var properCamelCase;
+var titleCaseOver;
+
+//Assigments
+studlyCapVar = 10;
+properCamelCase = "A String";
+titleCaseOver = 9000;
+
+-----------------------------------------------------------------------------------
+#Adding Numbers
